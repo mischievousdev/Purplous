@@ -20,6 +20,7 @@ By https://github.com/TheEquity
   --purplous-upload-box: #0D0017;
   --purplous-button: #260e33;
   --purplous-search-color: #100616;
+  --purplous-messagehover: #1F002D;
 }
 
 
@@ -101,6 +102,10 @@ By https://github.com/TheEquity
 /* Specific changes */
 .tab-ck0077.active-1MbGPa.item-PXvHYJ.selected-3s45Ha.themed-OHr7kt {
   background-color: var(--background-tertiary)
+}
+
+div.message-2qnXI6:hover {
+  background-color: var(--purplous-messagehover) !important;
 }
 
 
