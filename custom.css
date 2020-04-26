@@ -1,0 +1,111 @@
+/*
+Purplous Theme for Discord™
+
+By https://github.com/TheEquity 
+*/
+
+:root {
+  /* Variables provided by Discord */
+  --background-primary: #230431;
+  --background-secondary-alt: #160021;
+  --background-floating:  #160021;
+  --background-secondary: #1C0028;
+  --background-tertiary: #0D0017;
+  --activity-card-background: #0D0017;
+  --channeltextarea-background: #2D0F3D;
+
+  --purplous-card-inside: rgb(27, 7, 43);
+  --purplous-color: rgb(27, 9, 32);
+  --purplous-scrollbar: #000017;
+  --purplous-upload-box: #0D0017;
+  --purplous-button: #260e33;
+  --purplous-search-color: #100616;
+}
+
+
+.body-1ld4H7.inset-3sAvek {
+  background-color: var(--purplous-card-inside);
+}
+
+.peopleColumn-29fq28 {
+  background-color: var(--background-secondary);
+}
+
+/*
+.scroller-2FKFPG::-webkit-scrollbar-thumb, .scroller-2FKFPG::-webkit-scrollbar-track {
+  background-clip: unset;
+  background-color: var(--background-primary);
+  display: block;
+} 
+*/
+
+
+/* remove the scrollbar */
+.scroller-2FKFPG::-webkit-scrollbar {
+  display: none;
+}
+
+/* Search stuff (e.g. message and emoji searching) */
+.searchBar-3dMhjb {
+  background-color: var(--purplous-search-color) !important;
+}
+
+
+/* Profile when clicked in mem list*/
+.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignCenter-1dQNNs.noWrap-3jynv6.headerTop-3C2Zn0{
+  background-color: var(--background-tertiary) !important;
+}
+
+.scroller-2FKFPG.systemPad-3UxEGl.bodyInner-245q0L {
+  background-color: var(--background-secondary) !important;
+}
+
+.footer-1fjuF6 {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.quickMessage-2XpSaN.quickMessage-1yeL4E {
+  background-color: var(--background-tertiary) !important;
+}
+
+.activityUserPopout-2yItg2.activity-11LB_k {
+  background-color: var(--background-tertiary) !important;
+}
+
+.button-1Pkqso.button-38aScr.lookOutlined-3sRXeN.colorWhite-rEQuAQ.buttonSize-2Pmk-w.fullWidth-1orjjo.grow-q77ONN {
+  background-color: var(--background-secondary) !important;
+}
+
+
+
+/* Older messages popup */
+
+.jumpToPresentBar-9P20AM.barBase-39XTcM {
+  background-color: var(--activity-card-background) !important;
+}
+
+/* Upload popup */
+.uploadModal-2ifh8j {
+  background-color: var(--purplous-upload-box) !important;
+}
+
+.footer-3mqk7D {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+.button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeMedium-1AC_Sl.grow-q77ONN { 
+  background-color: var(--purplous-button) !important;
+  
+}
+
+/* Specific changes */
+.tab-ck0077.active-1MbGPa.item-PXvHYJ.selected-3s45Ha.themed-OHr7kt {
+  background-color: var(--background-tertiary)
+}
+
+
+/* block css */
+
+div[class="wrapper-2a6GCs cozy-3raOZG zalgo-jN1Ica"] {
+  display: none;
+}
