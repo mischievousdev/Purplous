@@ -26,6 +26,12 @@ Licensed under the Blue Oak Model License 1.0.0
 
 
 
+/* Spoilers */
+.spoilerWarning-2aAZq1,
+.spoilerText-3p6IlD.hidden-HHr2R9 {
+    background-color: var(--background-secondary) !important;
+}
+
 /* Mention suggestions when typing @Something */
 .autocompleteInner-zh20B_ {
   background-color: var(--background-tertiary) !important;
