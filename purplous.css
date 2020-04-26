@@ -36,14 +36,18 @@ Licensed under the Blue Oak Model License 1.0.0
 .autocompleteInner-zh20B_ {
   background-color: var(--background-tertiary) !important;
 }
-
 .selectorSelected-1_M1WV {
   background-color: var(--background-floating) !important;
 }
 
 
-/* Landing page - cards*/
+/* Mention override */
+.mentioned-xhSam7.message-2qnXI6.groupStart-23k01U.wrapper-2a6GCs.zalgo-jN1Ica,
+.message-2qnXI6.mentioned-xhSam7.wrapper-2a6GCs.zalgo-jN1Ica {
+    background-color: var(--background-mentioned) !important;
+}
 
+/* Landing page - cards*/
 .body-1ld4H7.inset-3sAvek {
   background-color: var(--purplous-card-inside);
 }
