@@ -1,2 +1,3 @@
 # Purplous
-A discord CSS theme inspired by Hiven.io
+
+Purplous is a discord theme for people who like purple!
