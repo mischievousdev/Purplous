@@ -12,6 +12,7 @@ Licensed under the Blue Oak Model License 1.0.0
   --background-floating:  #160021;
   --background-secondary: #1C0028;
   --background-tertiary: #0D0017;
+  --background-mention-hover: #1F002D;
   --activity-card-background: #0D0017;
   --channeltextarea-background: #2D0F3D;
 
@@ -21,7 +22,6 @@ Licensed under the Blue Oak Model License 1.0.0
   --purplous-upload-box: #0D0017;
   --purplous-button: #260e33;
   --purplous-search-color: #100616;
-  --purplous-messagehover: #1F002D;
   --purplous-spoiler-color: rgb(58, 28, 83);
 }
 
@@ -40,12 +40,6 @@ Licensed under the Blue Oak Model License 1.0.0
   background-color: var(--background-floating) !important;
 }
 
-
-/* Mention override */
-.mentioned-xhSam7.message-2qnXI6.groupStart-23k01U.wrapper-2a6GCs.zalgo-jN1Ica,
-.message-2qnXI6.mentioned-xhSam7.wrapper-2a6GCs.zalgo-jN1Ica {
-    background-color: var(--background-mentioned) !important;
-}
 
 /* Landing page - cards*/
 .body-1ld4H7.inset-3sAvek {
@@ -129,11 +123,6 @@ Licensed under the Blue Oak Model License 1.0.0
 .tab-ck0077.active-1MbGPa.item-PXvHYJ.selected-3s45Ha.themed-OHr7kt {
   background-color: var(--background-tertiary)
 }
-
-div.message-2qnXI6:hover {
-  background-color: var(--purplous-messagehover) !important;
-}
-
 
 /* block css */
 
