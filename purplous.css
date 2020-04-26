@@ -22,14 +22,14 @@ Licensed under the Blue Oak Model License 1.0.0
   --purplous-button: #260e33;
   --purplous-search-color: #100616;
   --purplous-messagehover: #1F002D;
+  --purplous-spoiler-color: rgb(58, 28, 83);
 }
-
 
 
 /* Spoilers */
 .spoilerWarning-2aAZq1,
 .spoilerText-3p6IlD.hidden-HHr2R9 {
-    background-color: var(--background-secondary) !important;
+    background-color: var(--purplous-spoiler-color) !important;
 }
 
 /* Mention suggestions when typing @Something */
