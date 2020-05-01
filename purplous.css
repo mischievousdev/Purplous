@@ -16,7 +16,6 @@ Licensed under the Blue Oak Model License 1.0.0
   --channeltextarea-background: #2D0F3D;
 
   --purplous-card-inside: rgb(27, 7, 43);
-  --purplous-color: rgb(27, 9, 32);
   --purplous-scrollbar: #000017;
   --purplous-upload-box: #0D0017;
   --purplous-button: #260e33;
@@ -135,9 +134,53 @@ div.message-2qnXI6:hover {
   background-color: var(--purplous-messagehover) !important;
 }
 
+/* Create channel popup */
+.theme-dark .modal-yWgWj- {
+  background-color: var(--background-floating);
+}
 
-/* block css */
+/* Switches */
+.switch-3wwwcV {
+  background-color: var(--background-tertiary) !important;
+}
 
-div[class="wrapper-2a6GCs cozy-3raOZG zalgo-jN1Ica"] {
-  display: none;
+/* Input box for channel name */
+.inputDefault-_djjkz.input-cIJ7To {
+  background-color: var(--background-tertiary) !important;
+}
+
+/* Background for the buttons below the channel options */
+.flex-1xMQg5.flex-1O1GKY.horizontalReverse-2eTKWD.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.footer-3rDWdC {
+  background-color: var(--background-tertiary) !important;
+}
+
+/* For message delete */
+.theme-dark .message-2qRu38 {
+  background-color: var(--channeltextarea-background) !important;
+}
+
+
+/* change status */
+.modalRoot-1Kx4Hb.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y {
+  background-color: var(--background-floating) !important;
+  
+}
+/* change status input box */
+.inputDefault-_djjkz.input-cIJ7To.input-1GLP_D {
+  background-color: var(--background-secondary) !important;
+}
+
+/* for a dropdown of options */
+div[role="listbox"] {
+  background-color: var(--background-primary) !important;
+}
+
+/* change status dropdown box */
+.scroller-2FKFPG.systemPad-3UxEGl.popout-2sKjHu.lookFilled-1h1y05.sizeMedium-6vZ9JV {
+  background-color: var(--background-primary) !important;
+}
+
+/* option hover for change status */
+.optionLabel-2CkCZx.optionNormal-12VR9V.option-1mJRMP:hover {
+  background-color: var(--background-secondary) !important;
 }
