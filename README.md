@@ -4,7 +4,8 @@ Purplous is a discord theme for people who like purple!
 
 ![Screenshot of the theme](https://i.imgur.com/shbp5C5.png)
 
-
+# Credits
+Big thanks to [@XuaTheGrate](https://github.com/XuaTheGrate/) for creating the original color harmony!
 
 # Installation
 
