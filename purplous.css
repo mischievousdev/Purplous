@@ -180,3 +180,7 @@ div[role="listbox"] {
 .optionLabel-2CkCZx.optionNormal-12VR9V.option-1mJRMP:hover {
   background-color: var(--background-secondary) !important;
 }
+
+/* remove bot tag */
+span[class*="botText-"] { display: none; }
+span[class*="botTag"] { display: none; }
