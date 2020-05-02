@@ -183,4 +183,4 @@ div[role="listbox"] {
 
 /* remove bot tag */
 span[class*="botText-"] { display: none; }
-span[class*="botTagCozy"] { display: none; }
+span[class*="botTag"] { display: none; }
