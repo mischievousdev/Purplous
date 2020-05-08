@@ -178,6 +178,19 @@ div.message-2qnXI6:hover {
   
 }
 
+
+
+/* "Voice Connected" stuff */
+.container-2x5lvQ section {
+  background-color: var(--background-primary) !important;
+}
+
+.container-2x5lvQ header {
+  background-color: var(--background-floating) !important;
+}
+
+
+
 /* change status input box */
 .inputDefault-_djjkz.input-cIJ7To.input-1GLP_D {
   background-color: var(--background-secondary) !important;
