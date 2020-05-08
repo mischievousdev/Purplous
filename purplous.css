@@ -178,6 +178,24 @@ div.message-2qnXI6:hover {
   
 }
 
+/* click on member in member list > add role via + > below \/ */
+
+/* the entire role list  */
+.scroller-2FKFPG.systemPad-3UxEGl.autocompleteScroller-iInVqR {
+  background-color: var(--background-tertiary) !important;
+}
+
+/* the add part */
+.header-2bNvm4 {
+  background-color: var(--background-secondary) !important;
+}
+
+/* The selected role */
+
+.row-rrHHJU.selected-1pIgLL:hover, .row-rrHHJU.selected-1pIgLL {
+  background: var(--background-secondary-alt) !important;
+}
+
 
 /* "Voice Connected" stuff */
 .container-2x5lvQ section {
