@@ -23,6 +23,7 @@ Licensed under the Blue Oak Model License 1.0.0
   --purplous-messagehover: #1F002D;
   --purplous-spoiler-color: rgb(58, 28, 83);
   --purplous-search-option: #290b38;
+  --purplous-activity-border: #1F002D;
 }
 
 
@@ -55,6 +56,7 @@ Licensed under the Blue Oak Model License 1.0.0
 /* friend list, block list, etc*/
 .peopleColumn-29fq28 {
   background-color: var(--background-secondary);
+  border-left: 1px solid var(--purplous-activity-border);
 }
 
 /* Make the background look cool for the search bar */
