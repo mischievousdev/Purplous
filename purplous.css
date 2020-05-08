@@ -147,7 +147,18 @@ div.message-2qnXI6:hover {
 
 /* Background for the buttons below the channel options */
 .flex-1xMQg5.flex-1O1GKY.horizontalReverse-2eTKWD.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.footer-3rDWdC {
-  background-color: var(--background-tertiary) !important;
+  background-color: var(--background-tertiary) !important;  
+
+}
+/* Note boxes */
+.note-3kmerW textarea:focus {
+  background-color: var(--background-secondary) !important;
+}
+
+/* Delete channel popup */
+.scrollerWrap-2lJEkd.content-1EtbQh.scrollerThemed-2oenus.themeGhostHairline-DBD-2d,
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6.header-2tA9Os.header-1TKi98 {
+    background-color: var(--background-tertiary) !important;   
 }
 
 /* For message delete */
@@ -161,6 +172,7 @@ div.message-2qnXI6:hover {
   background-color: var(--background-floating) !important;
   
 }
+
 /* change status input box */
 .inputDefault-_djjkz.input-cIJ7To.input-1GLP_D {
   background-color: var(--background-secondary) !important;
