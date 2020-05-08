@@ -125,6 +125,12 @@ Licensed under the Blue Oak Model License 1.0.0
   
 }
 
+/* Adjust the margin for the selected channel in the guild */
+.selected-37j_iU {
+  margin-right: 8px !important;
+}
+
+
 /* Specific changes */
 .tab-ck0077.active-1MbGPa.item-PXvHYJ.selected-3s45Ha.themed-OHr7kt {
   background-color: var(--background-tertiary)
