@@ -178,6 +178,11 @@ div.message-2qnXI6:hover {
   
 }
 
+/* remove the border for input stuff */
+.input-cIJ7To {
+  border: none !important;
+}
+
 
 
 /* "Voice Connected" stuff */
@@ -188,8 +193,6 @@ div.message-2qnXI6:hover {
 .container-2x5lvQ header {
   background-color: var(--background-floating) !important;
 }
-
-
 
 /* change status input box */
 .inputDefault-_djjkz.input-cIJ7To.input-1GLP_D {
