@@ -22,6 +22,7 @@ Licensed under the Blue Oak Model License 1.0.0
   --purplous-search-color: #100616;
   --purplous-messagehover: #1F002D;
   --purplous-spoiler-color: rgb(58, 28, 83);
+  --purplous-search-option: #290b38;
 }
 
 
@@ -41,7 +42,6 @@ Licensed under the Blue Oak Model License 1.0.0
 
 
 /* Mention override */
-
 .mentioned-xhSam7.message-2qnXI6.groupStart-23k01U.wrapper-2a6GCs.zalgo-jN1Ica,
 .message-2qnXI6.mentioned-xhSam7.wrapper-2a6GCs.zalgo-jN1Ica {
     background-color: var(--background-mentioned) !important;
@@ -52,19 +52,20 @@ Licensed under the Blue Oak Model License 1.0.0
   background-color: var(--purplous-card-inside);
 }
 
-
 /* friend list, block list, etc*/
 .peopleColumn-29fq28 {
   background-color: var(--background-secondary);
 }
 
-/*
-.scroller-2FKFPG::-webkit-scrollbar-thumb, .scroller-2FKFPG::-webkit-scrollbar-track {
-  background-clip: unset;
-  background-color: var(--background-primary);
-  display: block;
-} 
-*/
+/* Make the background look cool for the search bar */
+.DraftEditor-root {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+/* for search options like mentions:Equity#3464 */
+.searchFilter-2ESiM3, .searchAnswer-3Dz2-q {
+  background-color: var(--purplous-search-color) !important;
+}
 
 
 /* remove the scrollbar */
@@ -103,10 +104,7 @@ Licensed under the Blue Oak Model License 1.0.0
   background-color: var(--background-secondary) !important;
 }
 
-
-
 /* Older messages popup */
-
 .jumpToPresentBar-9P20AM.barBase-39XTcM {
   background-color: var(--activity-card-background) !important;
 }
