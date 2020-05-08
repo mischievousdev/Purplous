@@ -140,9 +140,14 @@ div.message-2qnXI6:hover {
 }
 
 
+/* channel popup heading */
+.header-2tA9Os {
+  background-color: var(--background-tertiary) !important;
+}
+
 /* Input box for channel name */
 .inputDefault-_djjkz.input-cIJ7To {
-  background-color: var(--background-tertiary) !important;
+  background-color: var(--background-primary) !important;
 }
 
 /* Background for the buttons below the channel options */
@@ -196,3 +201,11 @@ div[role="listbox"] {
 /* remove bot tag */
 span[class*="botText-"] { display: none; }
 span[class*="botTag"] { display: none; }
+
+/* 
+To re-add the bot tags, you can use this:
+
+span[class*="botText-"] { display: inline; }
+span[class*="botTag"] { display: inline-flex; }
+
+*/
