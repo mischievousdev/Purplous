@@ -248,3 +248,20 @@ span[class*="botText-"] { display: inline; }
 span[class*="botTag"] { display: inline-flex; }
 
 */
+
+/* Nitro page on the activity page */
+
+/* Buttons */
+.horizontalButton-2iUUDB.button-38aScr {
+  background-color: var(--purplous-button) !important;
+}
+/* Popup footer */
+.theme-dark .footer-3rDWdC {
+  background: var(--background-secondary) !important;
+}
+
+/* Action buttons (unblock, block, unfriend, etc) on the activity bar and potentially everywhere else */
+
+.actionButton-uPB8Fs {
+  background-color: var(--background-tertiary);
+}
