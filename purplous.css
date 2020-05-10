@@ -263,7 +263,7 @@ span[class*="botTag"] { display: inline-flex; }
 /* Action buttons (unblock, block, unfriend, etc) on the activity bar and potentially everywhere else */
 
 .actionButton-uPB8Fs {
-  background-color: var(--background-tertiary);
+  background-color: var(--background-secondary-alt);
 }
 
 /* get rid of the ugly background behind the "#" in the beginning of a new channel */
