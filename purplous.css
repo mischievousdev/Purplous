@@ -265,3 +265,9 @@ span[class*="botTag"] { display: inline-flex; }
 .actionButton-uPB8Fs {
   background-color: var(--background-tertiary);
 }
+
+/* get rid of the ugly background behind the "#" in the beginning of a new channel */
+
+.emptyChannelIcon-3IXV5M {
+  background-color: var(--background-primary);
+}
