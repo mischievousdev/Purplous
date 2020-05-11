@@ -23,7 +23,7 @@ Licensed under the Blue Oak Model License 1.0.0
   --purplous-messagehover: #1F002D;
   --purplous-spoiler-color: rgb(58, 28, 83);
   --purplous-search-option: #290b38;
-  --purplous-activity-border: rgb(40, 5, 56);
+  --purplous-activity-border: rgb(33, 5, 46);
 }
 
 
@@ -59,7 +59,7 @@ Licensed under the Blue Oak Model License 1.0.0
   border-left: 1px solid var(--purplous-activity-border);
   border-right: 1px solid var(--purplous-activity-border);
 }
-
+ 
 /* Make the background look cool for the search bar */
 .DraftEditor-root {
   background-color: var(--background-secondary-alt) !important;
