@@ -365,3 +365,11 @@ div[class*="colorPickerCustom"]  {
 div.css-n57xjs-menu {
   background-color: var(--background-primary) !important;
 }
+
+/* -------------- */
+/* Discovery page */
+/* -------------- */
+
+div[class*="pageWrapper"] {
+  background-color: var(--background-primary) !important;
+}
