@@ -305,6 +305,21 @@ div[class*="jumpToPresentBar"] {
   background-color: var(--activity-card-background) !important;
 }
 
+/* For the active tab box up top in the emoji picker and more? */
 button[class*="navButtonActive"] {
     background: var(--puplous-nav-button);
+}
+
+/* ---------------------------------------------------------------- */
+/* the top things to do here part of discord when you join a server */
+/* ---------------------------------------------------------------- */
+
+/* the entire element itself */
+div[class*="focusLock-"] div[class*="main"] {
+  background: var(--background-floating) !important;
+}
+
+/* the options for what to do*/
+div[class*="focusLock-"] div[class*="options-"] div[class*="optionContainer"] {
+    background-color: var(--background-primary);
 }
