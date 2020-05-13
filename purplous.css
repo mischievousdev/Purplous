@@ -347,3 +347,11 @@ span[class*="botText"] {
     background: var(--purplous-bot-tag-bg);
     color: var(--purplous-bot-tag-color);
 }
+
+/* ------------- */
+/* Color picker  */
+/* ------------- */
+
+div[class*="colorPickerCustom"]  {
+    background: var(--background-tertiary) !important;
+}
