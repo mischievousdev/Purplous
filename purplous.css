@@ -323,3 +323,11 @@ div[class*="focusLock-"] div[class*="main"] {
 div[class*="focusLock-"] div[class*="options-"] div[class*="optionContainer"] {
     background-color: var(--background-primary);
 }
+
+/* ------------------------------------------------------------------- */
+/* Gift codes sent in chat that are prefixed with https://discord.gift */
+/* ------------------------------------------------------------------- */
+
+div[class*="giftCodeContainer"] div[class*="tile"] {
+    background-color: var(--background-secondary);
+}
