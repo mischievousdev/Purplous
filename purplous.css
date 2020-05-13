@@ -355,3 +355,13 @@ span[class*="botText"] {
 div[class*="colorPickerCustom"]  {
     background: var(--background-tertiary) !important;
 }
+
+
+/* --------------- */
+/* Inviting people */
+/* --------------- */
+
+/* dropdown  */
+div.css-n57xjs-menu {
+  background-color: var(--background-primary) !important;
+}
