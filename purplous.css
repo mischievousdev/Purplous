@@ -76,8 +76,8 @@ Licensed under the Blue Oak Model License 1.0.0
   background-color: var(--purplous-search-color) !important;
 }
 
-/* Search stuff (e.g. message and emoji searching) */
-.searchBar-3dMhjb {
+/* Search stuff (e.g. message, emoji searching) */
+div[class*="searchBar-"] {
   background-color: var(--purplous-search-color) !important;
 }
 
@@ -370,6 +370,10 @@ div.css-n57xjs-menu {
 /* Discovery page */
 /* -------------- */
 
+/* right side of the page */
 div[class*="pageWrapper"] {
+  background-color: var(--background-primary) !important;
+}
+div[class*="searchBox-"] {
   background-color: var(--background-primary) !important;
 }
