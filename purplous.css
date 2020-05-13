@@ -331,3 +331,7 @@ div[class*="focusLock-"] div[class*="options-"] div[class*="optionContainer"] {
 div[class*="giftCodeContainer"] div[class*="tile"] {
     background-color: var(--background-secondary);
 }
+
+div[class*="giftCodeContainer"] div[class*="tile"]:hover {
+    background-color: var(--background-primary);
+}
