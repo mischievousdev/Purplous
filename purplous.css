@@ -24,6 +24,7 @@ Licensed under the Blue Oak Model License 1.0.0
   --purplous-spoiler-color: rgb(58, 28, 83);
   --purplous-search-option: #290b38;
   --purplous-activity-border: rgb(33, 5, 46);
+  --puplous-nav-button: rgb(59, 33, 71);
 }
 
 
@@ -302,4 +303,8 @@ div[class*="spoilerText-"].hidden-HHr2R9 {
 /* Older messages popup when scrolling back */
 div[class*="jumpToPresentBar"] {
   background-color: var(--activity-card-background) !important;
+}
+
+button[class*="navButtonActive"] {
+    background: var(--puplous-nav-button);
 }
