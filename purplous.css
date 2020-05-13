@@ -27,13 +27,10 @@ Licensed under the Blue Oak Model License 1.0.0
 }
 
 
-/* Spoilers */
-.spoilerWarning-2aAZq1,
-.spoilerText-3p6IlD.hidden-HHr2R9 {
-    background-color: var(--purplous-spoiler-color) !important;
-}
-
+/* ------------------------------------------ */
 /* Mention suggestions when typing @Something */
+/* ------------------------------------------ */
+
 .autocompleteInner-zh20B_ {
   background-color: var(--background-tertiary) !important;
 }
@@ -42,13 +39,12 @@ Licensed under the Blue Oak Model License 1.0.0
 }
 
 
-/* Mention override */
-.mentioned-xhSam7.message-2qnXI6.groupStart-23k01U.wrapper-2a6GCs.zalgo-jN1Ica,
-.message-2qnXI6.mentioned-xhSam7.wrapper-2a6GCs.zalgo-jN1Ica {
-    background-color: var(--background-mentioned) !important;
-}
+/* ------------- */
+/* Activity page */
+/* ------------- */
 
-/* Landing page - cards*/
+
+/* Cards for stuff like voice chat information, playing status, spotify, etc */
 .body-1ld4H7.inset-3sAvek {
   background-color: var(--purplous-card-inside);
 }
@@ -59,7 +55,13 @@ Licensed under the Blue Oak Model License 1.0.0
   border-left: 1px solid var(--purplous-activity-border);
   border-right: 1px solid var(--purplous-activity-border);
 }
- 
+
+
+
+/* ---------------------- */
+/* Search bar related CSS */
+/* ---------------------- */
+
 /* Make the background look cool for the search bar */
 .DraftEditor-root {
   background-color: var(--background-secondary-alt) !important;
@@ -70,53 +72,63 @@ Licensed under the Blue Oak Model License 1.0.0
   background-color: var(--purplous-search-color) !important;
 }
 
-
-/* remove the scrollbar */
-.scroller-2FKFPG::-webkit-scrollbar {
-  display: none;
-}
-
 /* Search stuff (e.g. message and emoji searching) */
 .searchBar-3dMhjb {
   background-color: var(--purplous-search-color) !important;
 }
 
+/* ---------------------------------- */
+/* Profile when clicked in member list*/
+/* ---------------------------------- */
 
-/* Profile when clicked in mem list*/
+
+/* Top part of the profile */
 .flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignCenter-1dQNNs.noWrap-3jynv6.headerTop-3C2Zn0{
   background-color: var(--background-tertiary) !important;
 }
 
-.scroller-2FKFPG.systemPad-3UxEGl.bodyInner-245q0L {
+/* The div element where the role and note stuff is at */
+div[class*="bodyInner-"] {
   background-color: var(--background-secondary) !important;
 }
 
+/* at the PROTIP caption*/
 .footer-1fjuF6 {
   background-color: var(--background-secondary-alt) !important;
 }
 
+/* Quick message part: Message @Equity */
 .quickMessage-2XpSaN.quickMessage-1yeL4E {
   background-color: var(--background-tertiary) !important;
 }
 
+/* Note boxes */
+.note-3kmerW textarea:focus {
+  background-color: var(--background-secondary) !important;
+}
+
+/* TODO: comment on what this do */
 .activityUserPopout-2yItg2.activity-11LB_k {
   background-color: var(--background-tertiary) !important;
 }
 
+/* TODO: comment on what this do */
 .button-1Pkqso.button-38aScr.lookOutlined-3sRXeN.colorWhite-rEQuAQ.buttonSize-2Pmk-w.fullWidth-1orjjo.grow-q77ONN {
   background-color: var(--background-secondary) !important;
 }
 
-/* Older messages popup */
-.jumpToPresentBar-9P20AM.barBase-39XTcM {
-  background-color: var(--activity-card-background) !important;
-}
 
+
+
+
+/* ------------ */
 /* Upload popup */
+/* ------------ */
 .uploadModal-2ifh8j {
   background-color: var(--purplous-upload-box) !important;
 }
 
+/* Footer */
 .footer-3mqk7D {
   background-color: var(--background-secondary-alt) !important;
 }
@@ -126,55 +138,24 @@ Licensed under the Blue Oak Model License 1.0.0
   
 }
 
-/* Adjust the margin for the selected channel in the guild */
+/* ------------------------------------------------------- */
+/* Adjust the margin for the channel drawer in the guild */
+/* ------------------------------------------------------- */
+
+/* Selected channel */
 .iconVisibility-1bOqu7.wrapper-1ucjTd.modeSelected-1zApJ_ {
   margin-right: 9px !important;
 }
 
+/* Above but minus selected channel */
 .iconVisibility-1bOqu7.wrapper-1ucjTd:hover {
     margin-right: 9px;
-}
-
-
-/* Specific changes */
-.tab-ck0077.active-1MbGPa.item-PXvHYJ.selected-3s45Ha.themed-OHr7kt {
-  background-color: var(--background-tertiary)
-}
-
-div.message-2qnXI6:hover {
-  background-color: var(--purplous-messagehover) !important;
-}
-
-/* Create channel popup */
-.theme-dark .modal-yWgWj- {
-  background-color: var(--background-floating);
-}
-
-
-/* channel popup heading */
-.header-2tA9Os {
-  background-color: var(--background-tertiary) !important;
-}
-
-/* Input box for channel name */
-.inputDefault-_djjkz.input-cIJ7To {
-  background-color: var(--background-primary) !important;
 }
 
 /* Background for the buttons below the channel options */
 .flex-1xMQg5.flex-1O1GKY.horizontalReverse-2eTKWD.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.footer-3rDWdC {
   background-color: var(--background-tertiary) !important;  
 
-}
-/* Note boxes */
-.note-3kmerW textarea:focus {
-  background-color: var(--background-secondary) !important;
-}
-
-/* Delete channel popup */
-.scrollerWrap-2lJEkd.content-1EtbQh.scrollerThemed-2oenus.themeGhostHairline-DBD-2d,
-.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6.header-2tA9Os.header-1TKi98 {
-    background-color: var(--background-tertiary) !important;   
 }
 
 /* For message delete */
@@ -183,16 +164,35 @@ div.message-2qnXI6:hover {
 }
 
 
-/* change status */
-.modalRoot-1Kx4Hb.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y {
-  background-color: var(--background-floating) !important;
-  
+/* -------------------------- */
+/* Channel related stuff      */
+/* -------------------------- */
+
+/* Create channel popup */
+.theme-dark .modal-yWgWj- {
+  background-color: var(--background-floating);
+}
+/* channel popup heading */
+.header-2tA9Os {
+  background-color: var(--background-tertiary) !important;
+}
+/* Input box for channel name */
+.inputDefault-_djjkz.input-cIJ7To {
+  background-color: var(--background-primary) !important;
+}
+/* Delete channel popup */
+.scrollerWrap-2lJEkd.content-1EtbQh.scrollerThemed-2oenus.themeGhostHairline-DBD-2d,
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6.header-2tA9Os.header-1TKi98 {
+    background-color: var(--background-tertiary) !important;   
 }
 
+
+/* ---------------------------------------------------------- */
 /* click on member in member list > add role via + > below \/ */
+/* ---------------------------------------------------------- */
 
 /* the entire role list  */
-.scroller-2FKFPG.systemPad-3UxEGl.autocompleteScroller-iInVqR {
+div[class*="autocompleteScroller-"] {
   background-color: var(--background-tertiary) !important;
 }
 
@@ -202,20 +202,30 @@ div.message-2qnXI6:hover {
 }
 
 /* The selected role */
-
-.row-rrHHJU.selected-1pIgLL:hover, .row-rrHHJU.selected-1pIgLL {
+.row-rrHHJU.selected-1pIgLL,
+.row-rrHHJU.selected-1pIgLL:hover {
   background: var(--background-secondary-alt) !important;
 }
 
 
+
+/* ----------------------- */
 /* "Voice Connected" stuff */
+/* ----------------------- */
+
+/* Ping status and stuff */
 .container-2x5lvQ section {
   background-color: var(--background-primary) !important;
 }
 
+/* RTC Connecting */
 .container-2x5lvQ header {
   background-color: var(--background-floating) !important;
 }
+
+/* ----------------------- */
+/* Changing presence stuff */
+/* ----------------------- */
 
 /* change status input box */
 .inputDefault-_djjkz.input-cIJ7To.input-1GLP_D {
@@ -223,7 +233,7 @@ div.message-2qnXI6:hover {
 }
 
 /* for a dropdown of options */
-div[role="listbox"] {
+.scroller-2FKFPG.popout-2sKjHu.lookFilled-1h1y05.sizeMedium-6vZ9JV {
   background-color: var(--background-primary) !important;
 }
 
@@ -233,41 +243,64 @@ div[role="listbox"] {
 }
 
 /* option hover for change status */
-.optionLabel-2CkCZx.optionNormal-12VR9V.option-1mJRMP:hover {
+.optionLabel-2CkCZx:hover {
   background-color: var(--background-secondary) !important;
 }
 
-/* remove bot tag */
-span[class*="botText-"] { display: none; }
-span[class*="botTag"] { display: none; }
 
-/* 
-To re-add the bot tags, you can use this:
-
-span[class*="botText-"] { display: inline; }
-span[class*="botTag"] { display: inline-flex; }
-
-*/
-
+/* ------------------------------- */
 /* Nitro page on the activity page */
+/* ------------------------------- */
 
 /* Buttons */
 .horizontalButton-2iUUDB.button-38aScr {
   background-color: var(--purplous-button) !important;
 }
+
 /* Popup footer */
 .theme-dark .footer-3rDWdC {
   background: var(--background-secondary) !important;
 }
 
-/* Action buttons (unblock, block, unfriend, etc) on the activity bar and potentially everywhere else */
 
+/* -------------- */
+/* Miscelleanous  */
+/* -------------- */
+
+/* Action buttons (unblock, block, unfriend, etc) on the activity bar and potentially everywhere else */
 .actionButton-uPB8Fs {
   background-color: var(--background-secondary-alt);
 }
 
 /* get rid of the ugly background behind the "#" in the beginning of a new channel */
-
 .emptyChannelIcon-3IXV5M {
   background-color: var(--background-primary);
+}
+
+/* Message hover */
+div.message-2qnXI6:hover {
+  background-color: var(--purplous-messagehover) !important;
+}
+
+
+/* Mention override */
+.mentioned-xhSam7.message-2qnXI6.groupStart-23k01U.wrapper-2a6GCs.zalgo-jN1Ica,
+.message-2qnXI6.mentioned-xhSam7.wrapper-2a6GCs.zalgo-jN1Ica {
+    background-color: var(--background-mentioned) !important;
+}
+
+/* Spoilers */
+div[class*="spoilerWarning-"],
+div[class*="spoilerText-"].hidden-HHr2R9 {
+    background-color: var(--purplous-spoiler-color) !important;
+}
+
+/* remove the scrollbar */
+.scroller-2FKFPG::-webkit-scrollbar {
+  display: none;
+}
+
+/* Older messages popup when scrolling back */
+.jumpToPresentBar-9P20AM.barBase-39XTcM {
+  background-color: var(--activity-card-background) !important;
 }
