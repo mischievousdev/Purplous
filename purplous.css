@@ -24,7 +24,9 @@ Licensed under the Blue Oak Model License 1.0.0
   --purplous-spoiler-color: rgb(58, 28, 83);
   --purplous-search-option: #290b38;
   --purplous-activity-border: rgb(33, 5, 46);
-  --puplous-nav-button: rgb(59, 33, 71);
+  --purplous-nav-button: rgb(59, 33, 71);
+  --purplous-bot-tag:  rgb(59, 33, 70);
+
 }
 
 
@@ -307,7 +309,7 @@ div[class*="jumpToPresentBar"] {
 
 /* For the active tab box up top in the emoji picker and more? */
 button[class*="navButtonActive"] {
-    background: var(--puplous-nav-button);
+    background: var(--purplous-nav-button);
 }
 
 /* ---------------------------------------------------------------- */
@@ -334,4 +336,12 @@ div[class*="giftCodeContainer"] div[class*="tile"] {
 
 div[class*="giftCodeContainer"] div[class*="tile"]:hover {
     background-color: var(--background-primary);
+}
+
+/* ---------------- */
+/* Bot tag coloring */
+/* ---------------- */
+span[class*="botTag"],
+span[class*="botText"] {
+    background: var(--purplous-bot-tag);
 }
