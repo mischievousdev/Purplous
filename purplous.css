@@ -25,7 +25,8 @@ Licensed under the Blue Oak Model License 1.0.0
   --purplous-search-option: #290b38;
   --purplous-activity-border: rgb(33, 5, 46);
   --purplous-nav-button: rgb(59, 33, 71);
-  --purplous-bot-tag:  rgb(59, 33, 70);
+  --purplous-bot-tag-bg: rgb(49, 35, 56);
+  --purplous-bot-tag-color: rgb(117, 29, 194);
 
 }
 
@@ -343,5 +344,6 @@ div[class*="giftCodeContainer"] div[class*="tile"]:hover {
 /* ---------------- */
 span[class*="botTag"],
 span[class*="botText"] {
-    background: var(--purplous-bot-tag);
+    background: var(--purplous-bot-tag-bg);
+    color: var(--purplous-bot-tag-color);
 }
