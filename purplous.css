@@ -282,7 +282,6 @@ div.message-2qnXI6:hover {
   background-color: var(--purplous-messagehover) !important;
 }
 
-
 /* Mention override */
 .mentioned-xhSam7.message-2qnXI6.groupStart-23k01U.wrapper-2a6GCs.zalgo-jN1Ica,
 .message-2qnXI6.mentioned-xhSam7.wrapper-2a6GCs.zalgo-jN1Ica {
@@ -301,6 +300,6 @@ div[class*="spoilerText-"].hidden-HHr2R9 {
 }
 
 /* Older messages popup when scrolling back */
-.jumpToPresentBar-9P20AM.barBase-39XTcM {
+div[class*="jumpToPresentBar"] {
   background-color: var(--activity-card-background) !important;
 }
