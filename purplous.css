@@ -380,3 +380,11 @@ div[class*="searchBox-"] {
   background-color: var(--background-primary) !important;
 }
 
+/* ------------------------------------------------------------------------------------------- */
+/* Guild panel related stuff (e.g. the settings, notification, and privacy stuff at guild "X") */
+/* ------------------------------------------------------------------------------------------- */
+
+/* the selected setting */
+.focused-3afm-j {
+  background-color: var(--background-primary) !important;
+}
