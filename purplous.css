@@ -15,6 +15,7 @@ Licensed under the Blue Oak Model License 1.0.0
   --activity-card-background: #0D0017;
   --channeltextarea-background: #2D0F3D;
 
+  /* Variables created by Purplous */
   --purplous-card-inside: rgb(27, 7, 43);
   --purplous-scrollbar: #000017;
   --purplous-upload-box: #0D0017;
@@ -26,7 +27,7 @@ Licensed under the Blue Oak Model License 1.0.0
   --purplous-activity-border: rgb(33, 5, 46);
   --purplous-nav-button: rgb(59, 33, 71);
   --purplous-bot-tag-bg: rgb(49, 35, 56);
-  --purplous-bot-tag-color: rgb(117, 29, 194);
+  --purplous-bot-tag-color: rgb(164, 115, 207);
 
 }
 
@@ -346,6 +347,7 @@ span[class*="botTag"],
 span[class*="botText"] {
     background: var(--purplous-bot-tag-bg);
     color: var(--purplous-bot-tag-color);
+    padding: 0px 1.5px;
 }
 
 /* ------------- */
@@ -377,3 +379,4 @@ div[class*="pageWrapper"] {
 div[class*="searchBox-"] {
   background-color: var(--background-primary) !important;
 }
+
