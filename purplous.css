@@ -53,12 +53,12 @@ Licensed under the Blue Oak Model License 1.0.0
 
 /* Cards for stuff like voice chat information, playing status, spotify, etc */
 .body-1ld4H7.inset-3sAvek {
-  background-color: var(--purplous-card-inside);
+  background-color: var(--purplous-card-inside) !important;
 }
 
 /* friend list, block list, etc*/
 .peopleColumn-29fq28 {
-  background-color: var(--background-secondary-alt);
+  background-color: var(--background-secondary-alt) !important;
   border-left: 1px solid var(--purplous-activity-border);
   border-right: 1px solid var(--purplous-activity-border);
 }
@@ -178,7 +178,7 @@ div[class*="bodyInner-"] {
 
 /* Create channel popup */
 .theme-dark .modal-yWgWj- {
-  background-color: var(--background-floating);
+  background-color: var(--background-floating) !important;
 }
 /* channel popup heading */
 .header-2tA9Os {
@@ -277,12 +277,12 @@ div[class*="autocompleteScroller-"] {
 
 /* Action buttons (unblock, block, unfriend, etc) on the activity bar and potentially everywhere else */
 .actionButton-uPB8Fs {
-  background-color: var(--background-secondary-alt);
+  background-color: var(--background-secondary-alt) !important;
 }
 
 /* get rid of the ugly background behind the "#" in the beginning of a new channel */
 .emptyChannelIcon-3IXV5M {
-  background-color: var(--background-primary);
+  background-color: var(--background-primary) !important;
 }
 
 /* Message hover */
@@ -312,9 +312,19 @@ div[class*="jumpToPresentBar"] {
   background-color: var(--activity-card-background) !important;
 }
 
+/* ------------ */
+/* Emoji picker */
+/* ------------ */
+
 /* For the active tab box up top in the emoji picker and more? */
 button[class*="navButtonActive"] {
-    background: var(--purplous-nav-button);
+    background: var(--purplous-nav-button) !important;
+}
+/* Emoji you're currently hovering in the emoji picker */
+ul[class|="emojiListRow"] li[class*="emojiItemSelected"] {
+    background-color: var(--background-floating);
+    outline: 0 !important;
+    border: none !important;
 }
 
 /* ---------------------------------------------------------------- */
@@ -328,7 +338,7 @@ div[class*="focusLock-"] div[class*="main"] {
 
 /* the options for what to do*/
 div[class*="focusLock-"] div[class*="options-"] div[class*="optionContainer"] {
-    background-color: var(--background-primary);
+    background-color: var(--background-primary) !important;
 }
 
 /* ------------------------------------------------------------------- */
@@ -336,11 +346,11 @@ div[class*="focusLock-"] div[class*="options-"] div[class*="optionContainer"] {
 /* ------------------------------------------------------------------- */
 
 div[class*="giftCodeContainer"] div[class*="tile"] {
-    background-color: var(--background-secondary);
+    background-color: var(--background-secondary) !important;
 }
 
 div[class*="giftCodeContainer"] div[class*="tile"]:hover {
-    background-color: var(--background-primary);
+    background-color: var(--background-primary) !important;
 }
 
 /* ---------------- */
@@ -399,3 +409,19 @@ div[class*="searchBox-"] {
 button[type="submit"] {
     background-color: var(--background-tertiary) !important;
 }
+
+
+/* -------------- */
+/* Reaction popup */
+/* -------------- */
+
+/* people who reacted */
+div[class*="reactors"] {
+    background-color: var(--background-primary) !important;
+}
+
+/* the reacted emojis */
+.scroller-2FKFPG.scroller-1-nKid {
+    background-color: var(--background-floating);
+}
+
