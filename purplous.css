@@ -388,7 +388,7 @@ div[class*="searchBox-"] {
 /* ------------------------------------------------------------------------------------------- */
 
 /* the selected setting */
-.focused-3afm-j {
+.focused-3afm-j, div[class*="labelContainer"]:hover {
   background-color: var(--background-primary) !important;
 }
 
