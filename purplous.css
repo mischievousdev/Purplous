@@ -298,7 +298,7 @@ div.message-2qnXI6:hover {
 
 /* Spoilers */
 div[class*="spoilerWarning-"],
-div[class*="spoilerText-"].hidden-HHr2R9 {
+span[class*="spoilerText-"].hidden-HHr2R9 {
     background-color: var(--purplous-spoiler-color) !important;
 }
 
