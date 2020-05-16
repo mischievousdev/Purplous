@@ -322,7 +322,7 @@ button[class*="navButtonActive"] {
 }
 /* Emoji you're currently hovering in the emoji picker */
 ul[class|="emojiListRow"] li[class*="emojiItemSelected"] {
-    background-color: var(--background-floating);
+    background-color: var(--background-);
     outline: 0 !important;
     border: none !important;
 }
@@ -401,15 +401,6 @@ div[class*="searchBox-"] {
 .focused-3afm-j, div[class*="labelContainer"]:hover {
   background-color: var(--background-primary) !important;
 }
-
-/* ---------------------------- */
-/* For buttons that submit data */
-/* ---------------------------- */
-
-button[type="submit"] {
-    background-color: var(--background-tertiary) !important;
-}
-
 
 /* -------------- */
 /* Reaction popup */
