@@ -6,15 +6,6 @@ Licensed under the Blue Oak Model License 1.0.0
 */
 
 :root {
-  /* Variables provided by Discord */
-  --background-primary: #230431;
-  --background-secondary-alt: #160021;
-  --background-floating:  #160021;
-  --background-secondary: #1C0028;
-  --background-tertiary: #0D0017;
-  --activity-card-background: #0D0017;
-  --channeltextarea-background: #2D0F3D;
-
   /* Variables created by Purplous */
   --purplous-card-inside: rgb(27, 7, 43);
   --purplous-scrollbar: #000017;
@@ -29,6 +20,16 @@ Licensed under the Blue Oak Model License 1.0.0
   --purplous-bot-tag-bg: rgb(49, 35, 56);
   --purplous-bot-tag-color: rgb(164, 115, 207);
 
+}
+.theme-dark {
+    --background-primary: #230431;
+    --background-secondary-alt: #160021;
+    --background-floating:  #160021;
+    --background-secondary: #1C0028;
+    --background-tertiary: #0D0017;
+    --activity-card-background: #0D0017;
+    --channeltextarea-background: #2D0F3D;  
+    --background-mobile-primary: var(--background-secondary-alt);
 }
 
 
@@ -78,7 +79,7 @@ Licensed under the Blue Oak Model License 1.0.0
 }
 
 /* Search stuff (e.g. message, emoji searching) */
-div[class*="searchBar-"] {
+.searchBar-3dMhjb, .searchBar-5di9mG {
   background-color: var(--purplous-search-color) !important;
 }
 
@@ -387,4 +388,12 @@ div[class*="searchBox-"] {
 /* the selected setting */
 .focused-3afm-j {
   background-color: var(--background-primary) !important;
+}
+
+/* ---------------------------- */
+/* For buttons that submit data */
+/* ---------------------------- */
+
+button[type="submit"] {
+    background-color: var(--background-tertiary) !important;
 }
