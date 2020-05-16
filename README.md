@@ -12,7 +12,7 @@ injectors.
 - [Powercord](https://github.com/powercord-org/powercord) (Canary only!)
 
 Once you get that situated, you must navigate to the stylesheet that the injector created and copy the contents from
-the [`import.css file`](https://github.com/Equity/Purplous/blob/master/import.css) to it. 
+the [import.css file](https://github.com/Equity/Purplous/blob/master/import.css) to it. 
 
 
 # Credits
