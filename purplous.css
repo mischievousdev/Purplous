@@ -30,6 +30,7 @@ Licensed under the Blue Oak Model License 1.0.0
     --activity-card-background: #0D0017;
     --channeltextarea-background: #2D0F3D;  
     --background-mobile-primary: var(--background-secondary-alt);
+    --deprecated-quickswitcher-input-background: var(--background-tertiary);
 }
 
 
@@ -86,6 +87,7 @@ Licensed under the Blue Oak Model License 1.0.0
 /* ---------------------------------- */
 /* Profile when clicked in member list*/
 /* ---------------------------------- */
+
 
 
 /* Top part of the profile */
