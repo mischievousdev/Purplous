@@ -193,6 +193,11 @@ div[class*="bodyInner-"] {
     background-color: var(--background-tertiary) !important;   
 }
 
+/* Remove the shitty box shadow for the level adjusting grabber */
+.grabber-3mFHz2 {
+  box-shadow: none !important;
+}
+
 
 /* ---------------------------------------------------------- */
 /* click on member in member list > add role via + > below \/ */
