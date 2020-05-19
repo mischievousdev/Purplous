@@ -19,7 +19,6 @@ Licensed under the Blue Oak Model License 1.0.0
   --purplous-nav-button: rgb(59, 33, 71);
   --purplous-bot-tag-bg: rgb(49, 35, 56);
   --purplous-bot-tag-color: rgb(164, 115, 207);
-
 }
 .theme-dark {
     --background-primary: #230431;
@@ -416,3 +415,12 @@ div[class*="reactors"] {
     background-color: var(--background-floating);
 }
 
+/* ------------------------------------------------------------------------------- */
+/* Context menu for messages (e.g. add reaction, delete message, pin message, etc) */
+/* ------------------------------------------------------------------------------- */
+
+/* Remove the border from the quick reaction */
+.button-F9qN4n.focused-3ZzkKr {
+    box-shadow: none !important;
+    background-color: inherit !important;
+}
